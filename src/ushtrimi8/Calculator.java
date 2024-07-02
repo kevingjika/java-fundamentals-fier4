@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
 
     public static void main(String[] args) {
-        double vlera = Calculator.calculate();
+        float vlera = Calculator.calculate();
         System.out.println("Vlera = " + vlera); // Nese veprimi eshte pjestim dhe numri i dyte eshte 0, vlera del nje numer shume i madh (MAX_VALUE).
     }
     public static float calculate() {
